@@ -1,0 +1,59 @@
+.myMovie {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: rgba(218, 192, 192, 0.15) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+.myMovie:hover {
+    transform: scale(0.95);
+    box-shadow: 0 8px 20px rgba(187, 45, 59, 0.5);
+    border: 1px solid #bb2d3b;
+}
+
+.myMovie img {
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #bb2d3b;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+.leftArrow,
+.rightArrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #bb2d3b;
+    border-radius: 50%;
+    background: rgba(218, 192, 192, 0.2);
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease-in-out;
+}
+
+.leftArrow:hover,
+.rightArrow:hover {
+    background-color: #bb2d3b !important;
+    border-color: white;
+    transform: scale(1.1);
+}
+
+.badge {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: rgba(218, 192, 192, 0.3);
+    border: 1px solid #bb2d3b;
+    color: #fff;
+}

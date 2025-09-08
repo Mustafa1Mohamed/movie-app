@@ -1,0 +1,93 @@
+/* Smooth hover animation */
+.nav-link {
+    transition: all 0.3s ease-in-out !important;
+    padding: 8px 16px !important;
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background: rgba(187, 45, 59, 0.9) !important;
+    color: #fff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(187, 45, 59, 0.5);
+}
+
+.nav-link.active {
+    background: linear-gradient(135deg, #bb2d3b, #a52834) !important;
+    border: none !important;
+    color: #fff !important;
+    box-shadow: 0 0 10px rgba(187, 45, 59, 0.8);
+}
+
+.navbar {
+    position: fixed;
+    top: 11px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    z-index: 1050;
+    /* Ensures it stays above content */
+    margin: 0 auto;
+    /* Center it */
+    padding: 8px 20px;
+    border-radius: 15px;
+    background: rgba(25, 25, 25, 0.7) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+body {
+    padding-top: 100px;
+    /* Adjust depending on navbar height */
+}
+
+.navbar-brand span {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand span:first-child {
+    color: #e50914 !important;
+}
+
+.navbar-brand span:last-child {
+    color: #f5f5f5 !important;
+}
+
+.navbar-brand:hover span:last-child {
+    color: #e50914 !important;
+}
+
+/* Buttons */
+.btn-outline-danger {
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-danger:hover {
+    background: #e50914 !important;
+    color: white !important;
+    transform: scale(1.05);
+}
+
+.btn-outline-light {
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-light:hover {
+    background: #f5f5f5 !important;
+    color: #000 !important;
+    transform: scale(1.05);
+}
+
+/* Badge */
+.badge {
+    font-size: 0.75rem !important;
+    padding: 0.35em 0.65em !important;
+    background: #e50914 !important;
+    border: none !important;
+    box-shadow: 0 2px 8px rgba(229, 9, 20, 0.7);
+}
