@@ -32,7 +32,7 @@ export default function Home() {
                     <h3>{lang === "ar" ? "أفضل الأفلام التي يمكنك العثور عليها هنا" : "The Best Movies You Can Find Are Here"}</h3>
                 </div>
 
-            <div className="Container d-flex flex-wrap justify-content-center mt-5">
+            <div dir={lang === "ar" ? "ltr" : "rtl"} className="Container d-flex flex-wrap justify-content-center mt-5">
                 {movies.map((movie) => (
                     <div
                         className="card d-flex flex-column bg-dark text-light shadow myMovie"
