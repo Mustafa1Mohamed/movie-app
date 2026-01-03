@@ -92,7 +92,7 @@ export default function NavBar() {
                             </NavLink>
                         </li>
 
-                        {!user ? (
+                        {/* {!user ? (
                             <>
                                 <li className="nav-item">
                                     <NavLink className="btn btn-outline-danger px-3 fw-semibold" to="/register">
@@ -114,7 +114,7 @@ export default function NavBar() {
                                     {lang === "ar" ? "تسجيل الخروج" : "Logout"}
                                 </button>
                             </li>
-                        )}
+                        )} */}
 
                         {/* Lang Toggle */}
                         <li className="nav-item">

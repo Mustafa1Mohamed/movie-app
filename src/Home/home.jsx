@@ -28,9 +28,9 @@ export default function Home() {
 
     return (
         <>
-                <div className="btn-danger btn border" dir={lang === "ar" ? "rtl" : "ltr"}>
+                {/* <div className="btn-danger btn border" dir={lang === "ar" ? "rtl" : "ltr"}>
                     <h3>{lang === "ar" ? "أفضل الأفلام التي يمكنك العثور عليها هنا" : "The Best Movies You Can Find Are Here"}</h3>
-                </div>
+                </div> */}
 
             <div dir={lang === "ar" ? "ltr" : "rtl"} className="Container d-flex flex-wrap justify-content-center mt-5">
                 {movies.map((movie) => (
