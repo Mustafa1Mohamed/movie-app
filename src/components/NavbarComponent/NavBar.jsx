@@ -81,7 +81,7 @@ export default function NavBar() {
 
                         <li className="nav-item">
                             <NavLink
-                                to={user ? "/favourites" : "/login"}
+                                to={"/favourites"}
                                 className="nav-link fw-semibold d-flex align-items-center gap-2"
                                 activeClassName={user ? "active" : ""}
                             >
