@@ -27,11 +27,11 @@ export default function NavBar() {
         }
     };
 
-    const handleLogout = () => {
-        localStorage.removeItem("currentUser");
-        window.dispatchEvent(new Event("userChange"));
-        history.push("/login");
-    };
+    // const handleLogout = () => {
+    //     localStorage.removeItem("currentUser");
+    //     window.dispatchEvent(new Event("userChange"));
+    //     history.push("/login");
+    // };
 
     return (
         <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
